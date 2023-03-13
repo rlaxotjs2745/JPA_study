@@ -10,8 +10,11 @@ import org.springframework.web.bind.annotation.*;
 public class DataController {
 
     @GetMapping("/hello")
-    public @ResponseBody String hello(HttpServletRequest req) {
+    public String hello(HttpServletRequest req) {
         System.out.println("hello");
         return "hello";
     }
+
+    @PostMapping("/save")
+    public void saveData(HttpServletRequest req, @RequestBody )
 }
