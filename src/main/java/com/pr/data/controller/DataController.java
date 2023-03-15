@@ -1,7 +1,7 @@
 package com.pr.data.controller;
 
+import com.pr.data.DTO.ReqPageDataVO;
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,5 +16,11 @@ public class DataController {
     }
 
     @PostMapping("/save")
-    public void saveData(HttpServletRequest req, @RequestBody )
+    public void saveData(HttpServletRequest req, @RequestBody ReqPageDataVO pgData) throws Exception {
+        try {
+
+        } catch (Exception e){
+
+        }
+    }
 }
