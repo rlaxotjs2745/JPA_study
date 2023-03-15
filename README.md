@@ -8,6 +8,8 @@
 성별, 연령, 회원 등급 등 서비스에 관련된 정보를 수집하여 다음 프로젝트 기획을 위한 데이터로 활용하기 위함.
 
 #### controller, model(dto) package는 jpa를 사용하지 않은 프로젝트와 동일하게 구현
+#### domain package에 기능별로 나누어 repository, entity를 포함시켜 구현하기도 하나,
+#### 해당 프로젝트는 기존 구현된 서비스에서 데이터를 얻는 프로젝트로, 기능이 많지 않아 domain package로 묶지 않음.
 
 ### entity package
 
