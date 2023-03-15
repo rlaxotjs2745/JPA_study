@@ -7,7 +7,7 @@
 페이지마다 유저들의 EnterTime, ExitTime을 측정하고, 해당 데이터 저장 및 통계를 통해
 성별, 연령, 회원 등급 등 서비스에 관련된 정보를 수집하여 다음 프로젝트 기획을 위한 데이터로 활용하기 위함.
 
-#### controller, model(dto) package는 jpa를 사용하지 않은 프로젝트와 동일하게 접근
+#### controller, model(dto) package는 jpa를 사용하지 않은 프로젝트와 동일하게 구현
 
 ### entity package
 
